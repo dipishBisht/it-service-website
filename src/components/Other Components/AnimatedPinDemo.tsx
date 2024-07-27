@@ -3,6 +3,8 @@ import DotPattern from "../ui/dot-pattern";
 import SparklesText from "../ui/sparkles-text";
 import { Link } from "react-router-dom";
 import cancerImg from "../../assets/cancer.png"
+import hotelImg from "../../assets/hotelswale.png"
+import studioImg from "../../assets/ineptStudio.png"
 
 export function AnimatedPinDemo() {
   return (
@@ -50,7 +52,7 @@ export function AnimatedPinDemo() {
               </h3>
               <img
                 className="flex flex-1 w-full rounded-lg mt-4 object-contain"
-                src="/src/assets/hotelswale.png"
+                src={hotelImg}
                 alt=""
               />
             </div>
@@ -65,7 +67,7 @@ export function AnimatedPinDemo() {
               </h3>
               <img
                 className="flex flex-1 w-full rounded-lg mt-4 object-contain"
-                src="/src/assets/ineptStudio.png"
+                src={studioImg}
                 alt=""
               />
             </div>
