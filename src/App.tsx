@@ -1,7 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import HomeHeader from "./components/Other Components/Header";
 import Footer from "./components/Other Components/Footer";
-import LocomotiveScroll from "locomotive-scroll";
 import { AboutHeader } from "./components/Other Components/AboutHeader";
 import { NavbarDemo } from "./components/Other Components/NavbarDemo";
 import { WebHeader } from "./components/Other Components/WebHeader";
@@ -12,7 +11,6 @@ import { GraphicHeader } from "./components/Other Components/GraphicHeader";
 import { ContactHeader } from "./components/Other Components/ContactHeader";
 
 const App: React.FC = () => {
-   new LocomotiveScroll();
   const location = useLocation();
   const curPage: string = location.pathname;
 
