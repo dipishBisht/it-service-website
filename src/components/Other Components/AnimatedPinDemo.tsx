@@ -34,7 +34,7 @@ export function AnimatedPinDemo() {
               </h3>
               <img
                 className="flex flex-1 w-full rounded-lg mt-4 object-contain"
-                src="/src/assets/cancerHeal.png"
+                src="./src/assets/cancerHeal.png"
                 alt=""
               />
             </div>
